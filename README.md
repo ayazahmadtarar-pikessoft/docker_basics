@@ -1,9 +1,13 @@
 # docker_basics
 
 Docker version
-Docker run hello-world
-Docker run hello-world ls | Docker run hello-world echo who am I
-Docker ps
+
+docker run hello-world
+
+docker run hello-world ls | Docker run hello-world echo who am I
+
+docker ps
+
 docker run busybox ping google.com
 docker ps --all
 Docker run = docker create +docker start
